@@ -9,4 +9,27 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-image: url(../images/cover-image-light.png);
+  --accent-color: rgba(255, 141, 203, 1);
+  --text-title-color: rgba(255, 194, 230, 1);
+  --text-pg-color: rgba(255, 241, 247, 1);
+  --text-menu-color: rgba(53, 52, 48, 1);
+  --color-main: rgba(53, 52, 48, 1);
+  --section-title-text: rgba(53, 52, 48, 1);
+  --font-family: 'IBM Plex Mono';
+  --font-size: 18px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    --accent-color: rgba(255, 141, 203, 1);
+    --text-title-color: rgba(255, 194, 230, 1);
+    --text-pg-color: rgba(255, 241, 247, 1);
+    --text-menu-color: rgba(53, 52, 48, 1);
+    --color-main: rgba(53, 52, 48, 1);
+    --section-title-text: rgba(53, 52, 48, 1);
+    --font-family: 'IBM Plex Mono';
+    --font-size: 18px;
+  }
 }

@@ -1,0 +1,1 @@
+git@github.com:Slipper72/slozhno-sosredotochitsya-fd.git
