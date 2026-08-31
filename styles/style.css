@@ -277,7 +277,7 @@
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-@media (width > 768px) {
+@media (min-width: 768px) {
   .header {
     min-height: 1024px;
   }
@@ -393,7 +393,7 @@
   }
 }
 
-@media (width > 1024px) {
+@media (min-width: 1024px) {
   .header {
     min-height: 768px;
   }
