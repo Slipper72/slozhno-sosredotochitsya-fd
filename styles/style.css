@@ -236,7 +236,7 @@
 
 .image__container {
   display: grid;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .section__content-image {
@@ -285,8 +285,7 @@
   .header__theme-menu {
     display: grid;
     align-items: center;
-    margin-top: 0;
-    margin-right: 4px;
+    margin-top: 25px;
   }
 
   .rec-icon {
@@ -294,23 +293,24 @@
   }
 
   .decorated-zone::after {
-    margin-right: 13px;
+    margin-right: 5px;
+    margin-top: 20px;
   }
 
   .decorated-zone::before {
-    margin-bottom: 30px;
-    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
 
   .header__title {
-    padding-bottom: 15px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    transform: translate(-10px);
   }
 
   .header__subtitle {
     justify-self: end;
-    margin-bottom: 48px;
-    margin-right: 12px;
+    margin-bottom: 23px;
+    margin-right: 4px;
   }
 
   .main {
@@ -319,27 +319,27 @@
 
   .section__causes {
     grid-template-columns: 1fr 2fr;
-    margin-left: 18px;
-    margin-top: 10px;
+    margin-left: 11px;
+    margin-top: 20px;
   }
 
   .section__factors {
-    margin-top: 29px;
+    margin-top: 28px;
   }
 
   .article__factors {
-    padding-left: 18px;
+    padding-left: 9px;
   }
 
   .section__title-factors {
     max-inline-size: 236px;
-    margin-left: 19px;
+    margin-left: 10px;
   }
 
   .section__concentration {
     grid-template-columns: 1fr 2fr;
     margin-top: 32px;
-    margin-left: 18px;
+    margin-left: 12px;
   }
 
   .article__concentration {
@@ -348,15 +348,15 @@
   }
 
   .section__content-title-image {
-    margin-left: 19px;
+    margin-left: 9px;
     margin-top: 28px;
   }
 
   .section__content-item-image {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    margin-top: 8px;
-    margin-left: 15px;
+    margin-top: 11px;
+    margin-left: 7px;
   }
 
   .section__content-image:first-of-type {
@@ -387,7 +387,6 @@
   }
 
   .footer__title {
-    padding-bottom: 17px;
     padding-left: 16px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -401,8 +400,8 @@
   .header__theme-menu {
     align-self: start;
     justify-self: center;
-    margin-top: 12px;
-    margin-left: 25px;
+    margin-top: 18px;
+    margin-left: 20px;
   }
 
   .header__theme-menu-list {
@@ -416,22 +415,21 @@
 
   .header__subtitle {
     min-inline-size: 491px;
-    margin-top: 6px;
-    margin-right: 1px;
+    margin-right: 0;
   }
 
   .decorated-zone::after {
-    margin-right: 11px;
-    margin-top: 13px;
+    margin-right: 5px;
+    margin-top: 20px;
   }
 
   .decorated-zone::before {
-    margin-bottom: 27px;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
 
   .section__causes {
-    margin-left: 11px;
-    margin-top: 14px;
+    margin-left: 0;
     padding-bottom: 9px;
   }
   .section__title {
@@ -445,7 +443,7 @@
   }
 
   .section__title-factors {
-    margin-left: 16px;
+    margin-left: 6px;
   }
 
   .article__causes {
@@ -460,7 +458,8 @@
   }
 
   .section__concentration {
-    margin-left: 11px;
+    margin-left: 0;
+    margin-top: 7px;
   }
 
   .section__title-decor {
