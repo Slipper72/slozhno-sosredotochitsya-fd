@@ -12,7 +12,7 @@
 }
 
 .header {
-  min-block-size: 100vh;
+  min-block-size: 100dvh;
   min-height: 668px;
   display: grid;
   position: relative;
@@ -263,7 +263,7 @@
 .footer {
   display: grid;
   position: relative;
-  min-block-size: 100vh;
+  min-block-size: 100dvh;
   min-height: 667px;
   justify-content: center;
   align-items: center;
@@ -289,7 +289,8 @@
   }
 
   .rec-icon {
-    padding-right: 22px;
+    padding-right: 15px;
+    padding-top: 20px;
   }
 
   .decorated-zone::after {
@@ -409,8 +410,8 @@
   }
 
   .rec-icon {
-    padding-top: 13px;
-    padding-right: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
   }
 
   .header__subtitle {
