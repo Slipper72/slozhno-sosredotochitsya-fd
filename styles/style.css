@@ -13,7 +13,7 @@
 
 .header {
   min-block-size: 100dvh;
-  min-height: 668px;
+  min-height: 1024px;
   display: grid;
   position: relative;
   grid-template-rows: 1fr min-content 1fr;
@@ -28,7 +28,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 10px;
   align-items: flex-end;
 }
 
@@ -167,7 +167,7 @@
   font-size: var(--font-size);
   line-height: 23px;
   color: var(--color-main);
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .section {
@@ -179,13 +179,13 @@
 .section__causes {
   display: grid;
   gap: 20px;
-  padding-bottom: 33px;
 }
 
 .article__causes {
   display: grid;
   grid-template-rows: min-content auto;
   gap: 20px;
+  padding-bottom: 35px;
 }
 
 .article__factors {
@@ -219,19 +219,14 @@
   color: var(--text-menu-color);
 }
 
-.section__concentration {
-  display: grid;
-  gap: 20px;
-  padding-bottom: 32px;
-}
-
 .section__concentration .article__block {
   margin-top: 8px;
 }
 
 .article__concentration {
   display: grid;
-  gap: 12px;
+  gap: 20px;
+  padding-bottom: 32px;
 }
 
 .image__container {
@@ -264,7 +259,7 @@
   display: grid;
   position: relative;
   min-block-size: 100dvh;
-  min-height: 667px;
+  min-height: 1024px;
   justify-content: center;
   align-items: center;
 }
@@ -278,14 +273,10 @@
 }
 
 @media (min-width: 768px) {
-  .header {
-    min-height: 1024px;
-  }
-
   .header__theme-menu {
     display: grid;
     align-items: center;
-    margin-top: 25px;
+    margin-bottom: 55px;
   }
 
   .rec-icon {
@@ -346,6 +337,11 @@
   .article__concentration {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .section__title-concentration {
+    margin-top: 10px;
   }
 
   .section__content-title-image {
@@ -383,7 +379,6 @@
   }
 
   .footer {
-    min-height: 1024px;
     margin-top: 25px;
   }
 
@@ -394,10 +389,6 @@
 }
 
 @media (min-width: 1024px) {
-  .header {
-    min-height: 768px;
-  }
-
   .header__theme-menu {
     align-self: start;
     justify-self: center;
@@ -465,9 +456,5 @@
 
   .section__title-decor {
     margin: 0;
-  }
-
-  .footer {
-    min-height: 768px;
   }
 }
