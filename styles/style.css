@@ -144,7 +144,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
   background-color: var(--text-pg-color);
   padding: 0 10px;
 }
@@ -177,7 +177,7 @@
 
 .section__causes {
   display: grid;
-  gap: 21px;
+  gap: 23px;
 }
 
 .article__causes {
@@ -199,6 +199,7 @@
 
 .article__block {
   display: grid;
+  gap: 10px;
 }
 
 .section__content-weight {
@@ -236,6 +237,7 @@
 
 .image__container {
   display: grid;
+  gap: 10px;
 }
 
 .section__content-image {
