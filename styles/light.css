@@ -32,4 +32,8 @@
     --font-family: 'IBM Plex Mono';
     --font-size: 18px;
   }
+
+  .rec-icon {
+    display: none;
+  }
 }
