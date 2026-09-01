@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: var(--text-pg-color);
-  font-family: var(--font-family), sans-serif;
+  font-family: var(--font-family), monospace;
 }
 
 .header {
@@ -41,6 +41,7 @@
   font-weight: 400;
   font-size: var(--font-size);
   width: 70px;
+  cursor: pointer
 }
 
 .header__theme-menu-button_active {
@@ -119,7 +120,7 @@
 }
 
 .header__title {
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: var(--font-family), monospace;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
